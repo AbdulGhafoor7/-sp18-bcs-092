@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schal's-App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container ">
+        <div class="tab tab1">
+            <h3>List of Persons</h3>
+            <table  id="infoTable">
+                <thead>    
+                <tr>
+                    <th id="tname">Name</th>
+                    <th id="tgender">Gender</th>
+                    <th id="tage">Age</th>
+                    <th id="tcity">City</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            </table>
+        </div>
+        <div class="tab tab2">
+            <h3>Add/Update Person Form</h3>
+            Name: <input id="name" name="Name" type="text"><br><br>
+            Gender: Male <input name="Gender" id="male" type="radio"> Female <input id="female" name="Gender" type="radio"><br><br>
+            Age: <input id="age" name="Age" type="text"><br><br>
+            City: <input id="city" name="City" type="text"><br><br>&nbsp;
+            &nbsp;
+            &nbsp;
+            <button  id="reset">Reset</button>&nbsp;
+            <button  id="add">ADD</button>&nbsp;
+            <button  id="update">Update</button>&NonBreakingSpace;
+        </div>
+    </div>
+</body>
+</html>
